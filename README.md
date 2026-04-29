@@ -14,7 +14,7 @@ This project fine-tunes 3 models on 2 different Khmer datasets and evaluates the
 
 | Dataset | Description |
 |---------|-------------|
-| Raw (Title-based) | Real Khmer news articles |
+| Raw (Title-based) | 144k Real Khmer news articles |
 | Synthetic | 10k synthetic Khmer samples generate from Gemini 2.5 Flash-Lite |
 
 ---
@@ -95,9 +95,12 @@ python src/train/train_qwen_synthetic.py
 ```bash
 # Raw
 python src/inference/raw/run_inference_test_set.py
+python src/inference/raw/run_inference_lr_sum.py
 
 # Synthetic
 python src/inference/synthetic/run_inference_test_set.py
+python src/inference/synthetic/run_inference_lr_sum.py
+
 ```
 
 ### Non Fine-tuned (Baseline)
@@ -121,9 +124,11 @@ python src/inference/run_inference_non_fine_lr_sum.py
 ```bash
 # Raw
 python src/evaluation/raw/run_eval_fine_tune.py
+python src/evaluation/raw/run_eval_lr_sum.py
 
 # Synthetic
 python src/evaluation/synthetic/run_eval_fine_tune.py
+python src/evaluation/synthetic/run_eval_lr_sum.py
 ```
 
 ### Non Fine-tuned (Baseline)
