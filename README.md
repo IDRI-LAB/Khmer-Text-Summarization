@@ -218,4 +218,3 @@ print(summary)
 | Task | Khmer text summarization |
 
 ---
-# Khmer-Text-Summarization
