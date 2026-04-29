@@ -5,7 +5,7 @@ from khmer_segmenter import Tokenizer
 # --- CONFIGURATION ---
 EVAL_FILES = [
     {"name": "Llama", "file": "outputs/synthetic_fine_tune_prediction_llama.jsonl"},
-    {"name": "Qwen", "file": "outputs/synthetic_fine_tune_prediction_qwen2.jsonl"},
+    {"name": "Qwen", "file": "outputs/synthetic_fine_tune_prediction_qwen.jsonl"},
     {"name": "Gemma", "file": "outputs/synthetic_fine_tune_prediction_gemma.jsonl"}
 ]
 REFERENCE_FILE = "../../data/synthetic/2000_test_cleaned.jsonl"

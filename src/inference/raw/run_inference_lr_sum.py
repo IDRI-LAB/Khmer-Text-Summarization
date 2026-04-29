@@ -30,7 +30,7 @@ MODELS_TO_RUN = [
     }
 ]
 
-DATASET_PATH = "PrahokBartDataset/khm_test.jsonl"
+DATASET_PATH = "../../data/lr_sum/khm_test.jsonl"
 
 
 # --- Load dataset once ---

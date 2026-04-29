@@ -105,4 +105,4 @@ for model_cfg in MODELS_TO_RUN:
     del tokenizer
     torch.cuda.empty_cache()
 
-print("✅ All models finished.")
+print(" All models finished.")
