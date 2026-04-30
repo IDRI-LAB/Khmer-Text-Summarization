@@ -16,7 +16,9 @@ This project fine-tunes 3 models on 2 different Khmer datasets and evaluates the
 ---
 
 ## 🛢️Dataset
+
     The dataset is available but requires to request. Please contact chily.ran@student.cadt.edu.kh for access.
+
 | Dataset | Description |
 |---------|-------------|
 | Raw (Title-based) | 144k Real Khmer news articles |
