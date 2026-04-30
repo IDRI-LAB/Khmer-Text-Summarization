@@ -16,9 +16,7 @@ This project fine-tunes 3 models on 2 different Khmer datasets and evaluates the
 ---
 
 ## 🛢️Dataset
-
-    The dataset is available but requires to request. 
-    Please contact chily.ran@student.cadt.edu.kh for access.
+The dataset is available but requires to request. Please contact chily.ran@student.cadt.edu.kh for access.
 
 | Dataset | Description |
 |---------|-------------|
