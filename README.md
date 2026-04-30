@@ -12,12 +12,15 @@ This project fine-tunes 3 models on 2 different Khmer datasets and evaluates the
 | LLaMA | unsloth/Llama-3.2-3B-Instruct-bnb-4bit |
 | Qwen | unsloth/Qwen2.5-7B-Instruct-bnb-4bit |
 
+
+---
+
+## 🛢️Dataset
+    The dataset is available but requires to request. Please contact chily.ran@student.cadt.edu.kh for access.
 | Dataset | Description |
 |---------|-------------|
 | Raw (Title-based) | 144k Real Khmer news articles |
 | Synthetic | 10k synthetic Khmer samples generate from Gemini 2.5 Flash-Lite |
-
----
 
 ## 📂 Project Structure
 
