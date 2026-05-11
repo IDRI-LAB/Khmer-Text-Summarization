@@ -156,9 +156,9 @@ Trained adapters are available on HuggingFace:
 
 | Model | Repo |
 |-------|------|
-| Gemma | [ChilyRan/gemma-khmer-adapters](https://huggingface.co/ChilyRan/gemma-khmer-adapters) |
-| LLaMA | [ChilyRan/llama-khmer-adapters](https://huggingface.co/ChilyRan/llama-khmer-adapters) |
-| Qwen | [ChilyRan/qwen-khmer-adapters](https://huggingface.co/ChilyRan/qwen-khmer-adapters) |
+| Gemma | [CADT-IDRI/gemma-khmer-text-sum-adapters](https://huggingface.co/CADT-IDRI/gemma-khmer-text-sum-adapters) |
+| LLaMA | [CADT-IDRI/llama-khmer-text-sum-adapters](https://huggingface.co/CADT-IDRI/llama-khmer-text-sum-adapters) |
+| Qwen | [CADT-IDRI/qwen-khmer-text-sum-adapters](https://huggingface.co/CADT-IDRI/qwen-khmer-text-sum-adapters) |
 
 ### Load and run inference:
 
