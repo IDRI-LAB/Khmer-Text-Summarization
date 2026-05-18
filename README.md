@@ -179,7 +179,7 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     model_name="unsloth/gemma-2b-bnb-4bit",
     max_seq_length=8192,
     load_in_4bit=True,
-    adapter_name="CADT-IDRI/gemma-khmer-adapters",
+    adapter_name="CADT-IDRI/gemma-khmer-text-sum-adapters",
     adapter_kwargs={"subfolder": "synthetic"}  # or "title_based"
 )
 FastLanguageModel.for_inference(model)
